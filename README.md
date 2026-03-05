@@ -316,35 +316,7 @@ git rebase -i HEAD~3
 
 ---
 
-# 13. Git Tags
-
-Create a tag.
-
-```bash
-git tag v1.0
-```
-
-Create annotated tag.
-
-```bash
-git tag -a v1.0 -m "Version 1.0"
-```
-
-Push a tag.
-
-```bash
-git push origin v1.0
-```
-
-Push all tags.
-
-```bash
-git push origin --tags
-```
-
----
-
-# 14. GitFlow Commands
+# 13. GitFlow Commands
 
 Initialize GitFlow.
 
