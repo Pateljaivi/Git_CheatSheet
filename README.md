@@ -2,7 +2,7 @@
 
 # 1. Git Configuration
 
-Set up your Git identity before working with repositories.
+Set up your Git identity before working with repositories:
 
 ```bash
 git config --global user.name "Your Name"
@@ -32,7 +32,7 @@ Sets email for the current repository.
 
 # 2. Repository Setup
 
-Initialize a new repository.
+Initialize a new repository:
 
 ```bash
 git init
@@ -40,7 +40,7 @@ git init
 
 Creates a `.git` directory and starts tracking the project.
 
-Clone an existing repository.
+Clone an existing repository:
 
 ```bash
 git clone <repository_url>
@@ -67,19 +67,19 @@ Shows:
 
 # 4. Add Files to Staging
 
-Add a specific file.
+Add a specific file:
 
 ```bash
 git add file_name
 ```
 
-Add multiple files.
+Add multiple files:
 
 ```bash
 git add file1 file2
 ```
 
-Add all files.
+Add all files:
 
 ```bash
 git add .
